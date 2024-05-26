@@ -1,0 +1,35 @@
+.navbar-brand{
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+            "wdth" 100;
+    color: black;
+}
+
+.nav li{
+color: black;
+}
+
+
+.helloSection H1{
+    text-align: center;
+    font-size:125px;
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-image: linear-gradient(to bottom right, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    padding: 20% 10%;
+   text-shadow:10px 10px darkslateblue;
+    color: ghostwhite;
+}
+
+.helloSection H1:hover{
+    font-size: 130px;
+    padding: 20% 10%;
+    content:'Welcome';
+}
+.helloSection:hover H1.new-label{
+    content: 'ADD';
+    background-position: inherit;
+}
