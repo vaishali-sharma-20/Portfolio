@@ -18,18 +18,16 @@ color: black;
     font-family: "Abril Fatface", serif;
     font-weight: 400;
     font-style: normal;
-    background-image: linear-gradient(to bottom right, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
-    padding: 20% 10%;
-   text-shadow:10px 10px darkslateblue;
-    color: ghostwhite;
+    background-image: linear-gradient(to bottom right, rgba(245,247,250,1) 0%, rgba(195,207,234,1) 100%);
+    padding: 15% 5%;
+    text-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    color: darkslateblue;
 }
 
-.helloSection H1:hover{
-    font-size: 130px;
-    padding: 20% 10%;
-    content:'Welcome';
+
+.MainSection:hover H1 span{
+    display: none;
 }
-.helloSection:hover H1.new-label{
-    content: 'ADD';
-    background-position: inherit;
+.MainSection:hover H1::after{
+    content: 'I am Vaishali Sharma.';
 }
