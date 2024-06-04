@@ -25,9 +25,6 @@ color: black;
 }
 
 
-.MainSection:hover H1 span{
-    display: none;
-}
-.MainSection:hover H1::after{
-    content: 'I am Vaishali Sharma.';
+video{
+    width: 100%;
 }
