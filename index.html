@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,8 +10,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="home.tsx"></script>
 </head>
-    <title>Vaishali</title>
+
 <body>
 <nav class="navbar">
     <div class="container-fluid">
@@ -23,26 +24,87 @@
         </div>
         <ul class="nav navbar-nav">
             <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li
+            <li><a href="#Intro">About</a></li>
+            <li><a href="#Contact-us">Contact</a></li>
         </ul>
     </div>
 </nav>
-<div class="MainSection">
-   /*<section>
+<div class="container-fluid MainSection">
+    <!--<section>
     <div class="helloSection">
         <H1><span class="animate__animated" id="dev">Hello There!</span></H1>
     </div>
-    </section>*/
-
-    <section>
-        <video autoplay loop> <source src="images/Vaishali%20SHarma.mp4"></video>
+    </section>-->
+    
+    <section class="card">
+        <video autoplay muted loop> <source src="images/Vaishali%20SHarma.mp4"></video>
     </section>
-</div>
-    <script src="script.js"></script>
 
+    <section class="Intro" id="Intro">
+        <div class="About" >
+            <h1><u>About Me</u></h1>
+            <p>As a passionate fourth-year IT student, I am actively seeking internship opportunities to apply my skills and contribute to meaningful projects. Throughout my academic journey, I have cultivated strong cooperative skills, including a love for teamwork and collaboration. My ability to multitask effectively allows me to thrive in dynamic environments.
+                <br>
+                During my previous internship at the Madhya Pradesh State Electronics and Development Corporation, I had the privilege of being recognized as the “Best Intern of the Month.” In this role, I prepared and presented detailed reports for senior management, highlighting key findings and recommendations. Collaborating with cross-functional teams, I analyzed data to identify trends and insights. Additionally, I spearheaded the development of wireframes using industry-standard tools like Axure, translating business requirements into intuitive user interfaces. This experience not only honed my technical skills but also emphasized the importance of effective communication and stakeholder engagement.
+                <br>
+                Apart from my internship, I have also delved into Kajabi development, designing custom themes and templates to create visually appealing and user-friendly websites. Integrating third-party plugins further enhanced the functionality of Kajabi platforms. Collaborating closely with clients, I ensured personalized solutions aligned with their specific requirements.
+                <br>
+                Currently pursuing an Integrated Master’s in Computer Application from Devi Ahilya Vishwavidhyalaya, Indore, I have a solid foundation in programming languages such as Java, C++, and Python. My coursework also covers database management, software engineering, and web development.
+                <br>
+                Outside of the tech world, I am passionate about learning Spanish and exploring new horizons. Whether it’s solving complex problems or creating elegant web designs, I approach every challenge with enthusiasm and a growth mindset.
+                <br>
+                Feel free to connect with me on LinkedIn or explore my portfolio here. Let’s collaborate and make a positive impact together.</p>
+        </div>
+    </section>
+
+   <section id="Contact-us">
+       <div class="inner-container">
+           <div class="tile1">
+               <div class="tile1-heading">Get in touch</div>
+               <div class="form-row">We are here for you! How can we help?</div>
+               <form>
+                   <div class="form-row">
+                       <input type="text" class="form-field" placeholder="Enter your name">
+                   </div>
+                   <div class="form-row">
+                       <input type="text" class="form-field" placeholder="Enter your email address">
+                   </div>
+                   <div class="form-row">
+                       <textarea class="form-field" placeholder="Go ahead we are listening..."></textarea>
+                   </div>
+                   <div class="form-row">
+                       <input type="button" class="form-field btn" value="Submit">
+                   </div>
+               </form>
+           </div>
+           <div class="tile2">
+               <div class="tile2-image">
+                   <img src="images/contact-me.png">
+               </div>
+           </div>
+       </div>
+
+   </section>
+</div>
+
+
+    <script src="script.js">
+        function toggleMenu() {
+            var menuElement = document.getElementById("header-right-menu");
+            if (menuElement.style.display === "block") {
+                menuElement.style.display = "none";
+            } else {
+                menuElement.style.display = "block";
+            }
+        }
+    </script>
+<
 </body>
+
 </html>
 <head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
 </head>
